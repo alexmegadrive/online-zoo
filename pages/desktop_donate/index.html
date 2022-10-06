@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petstory Donate  @alexmegadrive</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>PetStory Online</h1>
+
+    <div class="header">
+        <div class="container">
+            <a href="../desktop_petstory/index.html" class="logo">PetStory online</a>
+            
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            
+          
+            <nav>
+                <ul id="navList">
+                    <li><a href="../desktop_petstory/index.html" class="nav-link ">About</a></li>
+                    <li><a href="https://maps.google.com" class="nav-link">Map</a> </li>
+                    <li><a href="#" class="nav-link">Zoos</a></li>
+                    <li><a href="#" class="nav-link nav-link--active">Donate</a></li>
+                    <li><a href="#" class="nav-link">Contact us</a></li>
+                </ul>
+            </nav>
+            <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
+                class="nav-link header__designedby">Designed by ©</a>
+        </div>
+    </div>
+    <div class="donate-panda">
+    </div>
+
+    <div class="slide-friend">
+        <div class="container">
+            <h4 class="slide-friend__h4-title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h4>
+            <p class="slide-friend__h4-subttle">Even though the Zoo has been able to reopen, we are at a greatly reduced
+                capacity with educational programs and public and private events cancelled or postponed for additional
+                months. We need you now more than ever to help ensure that we overcome these challenges. We have been
+                actively raising funds in the community, and we are grateful for the generosity. But much more support
+                is still needed, and we need your help! Please consider a gift today – no matter what size – to help us
+                sustain our mission.</p>
+            <div class="slide-friend__info">Donation Information</div>
+        </div>
+
+        <div class="slide-friend__container">
+            <h3 class="slide-friend__title">Pick and feed a friend</h3>
+            <p class="slide-friend__subtitle">We know the animals bring you joy, and in these extraordinary times, we’re
+                glad.</p>
+            <div class="slide-friend__panda-container">
+                <div class="slide-friend__panda-container-diet">
+                    <div>4</div>
+                    <div>Panda diet for the day.</div>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+            <p class="slide-friend__text slide-friend__amount-title">Amount</p>
+            <form action="">
+
+                <div class="donate-amount__container">
+
+
+                    <div class="donate-amount__box">
+                        <!-- <div class="donate-amount__box-line"></div> -->
+                        <div class="donate-amount__radio-input-box">
+                            <label class="input-button__wrapper">
+                                <input type="radio" class="radio-real" name="donate-amount" id="id5000" value="5000">
+                                <span class="radio-amount-fake"></span>
+                                <label class="radio-amount-label">$5000</label>
+
+                            </label>
+                            <label class="input-button__wrapper">
+                                <input type="radio" class="radio-real" name="donate-amount" value="2000">
+                                <span class="radio-amount-fake"></span>
+                                <label class="radio-amount-label">$2000</label>
+
+                            </label>
+                            <label class="input-button__wrapper">
+                                <input type="radio" class="radio-real" name="donate-amount" value="1000">
+                                <span class="radio-amount-fake"></span>
+                                <label class="radio-amount-label">$1000</label>
+
+                            </label>
+                            <label class="input-button__wrapper">
+                                <input type="radio" class="radio-real" name="donate-amount" value="500">
+                                <span class="radio-amount-fake"></span>
+                                <label class="radio-amount-label">&nbsp$500</label>
+
+                            </label>
+                            <label class="input-button__wrapper">
+                                <input type="radio" class="radio-real" name="donate-amount" value="250">
+                                <span class="radio-amount-fake"></span>
+                                <label class="radio-amount-label">&nbsp$250</label>
+
+                            </label>
+                            <label class="input-button__wrapper">
+                                <input type="radio" class="radio-real" name="donate-amount" value="100" checked>
+                                <span class="radio-amount-fake"></span>
+                                <label class="radio-amount-label">&nbsp$100</label>
+
+                            </label>
+                            <label class="input-button__wrapper">
+                                <input type="radio" class="radio-real" name="donate-amount" value="50">
+                                <span class="radio-amount-fake"></span>
+                                <label class="radio-amount-label">&nbsp$50</label>
+
+                            </label>
+                            <label class="input-button__wrapper">
+                                <input type="radio" class="radio-real" name="donate-amount" value="25">
+                                <span class="radio-amount-fake"></span>
+                                <label class="radio-amount-label">&nbsp$25</label>
+
+                            </label>
+                        </div>
+                    </div>
+                    <!-- <label for="5000" id="label5000">$5000</label> -->
+
+                </div>
+                <div class="donate-column-container">
+                    <div class="donate-another-amount-container">
+                        <input type="number"
+                            id="inputSumBox"
+                            value="100"
+                            placeholder="Another amount" maxlength="4"
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                            onkeypress="checkNum(event)" 
+                            >
+                        <div class="donate-another-amount__dollar"></div>
+                    </div>
+                    <div class="donate-period__box">
+                        <label class="input-button__wrapper">
+                            <input type="radio" class="radio-real" name="donate-period" value="Monthly">
+                            <span class="radio-period-fake"></span>
+                            <label class="radio-period-label slide-friend__text"> Monthly
+                            </label>
+
+                        </label>
+                        <label class="input-button__wrapper">
+                            <input type="radio" class="radio-real" name="donate-period" value="Once" checked>
+                            <span class="radio-period-fake"></span>
+                            <label class="radio-period-label slide-friend__text"> Once
+                            </label>
+
+                        </label>
+                    </div>
+                </div>
+                <div class="donate-column-container">
+                    <a href="#" class="btn btn--rounded">Feed a friend now</a>
+                    <p class="slide-friend__text">Share with your friends on social networks </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-top__left">
+                    <a href="../desktop_petstory/index.html" class="logo">PetStory online</a>
+                    <a href="../desktop_donate/index.html" class="btn">Donate for volunteers</a>
+                </div>
+                <div class="footer-top__subscribe-box">
+                    <span class="footer-top__subscribe-box-title">Subscribe to our news</span>
+                    <form action="">
+                        <input type="email" placeholder="Enter your email" required>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-links-section">
+                    <a href="https://https://https://https://facebook.com" class="nav-link footer-links-section__line">
+                        <div class="footer-links-section__link-logo social-logo--fb"></div>
+                        
+                        <span>Facebook</span>
+
+                    </a>
+                    <a href="https://twitter.com" class="nav-link footer-links-section__line">
+                        <div class="footer-links-section__link-logo social-logo--tw"></div>
+                        
+                        <span>Twitter</span>
+
+                    </a>
+                    <a href="https://instagram.com" class="nav-link footer-links-section__line">
+                        <div class="footer-links-section__link-logo social-logo--inst"></div>
+                        <span>Instagram</span>
+                        
+                    </a>
+                    <a href="https://youtube.com" class="nav-link footer-links-section__line">
+                        <div class=" footer-links-section__link-logo social-logo--yt"></div>
+                        
+                        <span>Youtube</span>
+
+                    </a>
+                </div>
+                <div class="footer-center">
+                    <ul>
+                        <li><a href="../desktop_donate/index.html" class="nav-link">About</a></li>
+                        <li><a href="https://maps.google.com" class="nav-link">Map</a> </li>
+                        <li><a href="#" class="nav-link">Zoos</a></li>
+                        <li><a href="#" class="nav-link">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-credits">
+                    <div>Designed by Alisa Samborskaya</div>
+                    <div>Alex Mihailov, RS School 2022</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
