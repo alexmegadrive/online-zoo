@@ -1,6 +1,6 @@
-# Animal Dontaions Portal
+# Online-Zoo - Animal Dontaions Portal
 
-## Site consists of two pages
+## Pages
 - Main https://alexmegadrive.github.io/online-zoo/pages/desktop_petstory/
 - Donate https://alexmegadrive.github.io/online-zoo/pages/desktop_donate/index.html
 
