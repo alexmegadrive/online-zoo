@@ -1,13 +1,12 @@
-# Сайт для пожертвований в пользу животных Online-zoo
+# Animal Dontaions Portal
 
-## Релизовано 2 страницы
-- Главная https://alexmegadrive.github.io/online-zoo/pages/desktop_petstory/
+## Site consists of two pages
+- Main https://alexmegadrive.github.io/online-zoo/pages/desktop_petstory/
 - Donate https://alexmegadrive.github.io/online-zoo/pages/desktop_donate/index.html
 
-### Фичи 
-- Сделана адаптивная и отзывчивая верстка для разрешений 320, 640, 1000 и 1600+ пикселей
-- Кастомные элементы (радио кнопки, инпуты)
-- Различные положения для valid и invalid состояний инпутов
-- Перелистывание карточек
-- Скрипты для подстановки сумм в выборе размера пожертвований (страница Donate)
-- Мобильное бургер-меню
+### Features 
+- Aadaptive and responsive layout for resolutions 320, 640, 1000 and 1600+ pixels
+- Custom layout for elements  (radio buttons, inputs, valid/invalid inputs layout)
+- Testimonials cards carousel
+- Inputs validation (with JS and HTML)
+- Mobile burger menu
