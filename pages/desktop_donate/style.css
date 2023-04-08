@@ -33,7 +33,8 @@
 .slide-friend__container p:last-child {
   margin: 0 auto;
 }
-.slide-friend__container form input, .slide-friend__container form .donate-period__box {
+.slide-friend__container form input,
+.slide-friend__container form .donate-period__box {
   margin: 0 auto;
 }
 .slide-friend__container form .donate-period__box {
@@ -443,7 +444,8 @@
     left: -8px;
     font-size: 13px;
   }
-  .slide-friend__info, .slide-friend__title {
+  .slide-friend__info,
+.slide-friend__title {
     font-size: 24px;
   }
   .slide-friend__h4-title {
