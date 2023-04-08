@@ -7,34 +7,34 @@
 }
 .main-slide .btn {
   position: absolute;
-  left: calc(50% - 149px + 332px);
   top: 626px;
+  left: calc(50% - 149px + 332px);
 }
 
 .main-slide__ellips {
   position: absolute;
+  top: 92px;
+  left: calc(50% - 232.5px + 239.5px);
   width: 465px;
   height: 465px;
-  left: calc(50% - 232.5px + 239.5px);
-  top: 92px;
   border-radius: 50%;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
 }
 
 .main-slide__text {
   position: absolute;
+  top: 166px;
+  left: calc(50% - 250.155px + 330.15px);
   width: 500.31px;
   height: 400px;
-  left: calc(50% - 250.155px + 330.15px);
-  top: 166px;
+  color: #ffffff;
   font-family: "Roboto";
+  font-size: 106.496px;
   font-style: normal;
   font-weight: 700;
-  font-size: 106.496px;
   line-height: 75%;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
 }
 
 .text-decoration--yellow {
@@ -43,28 +43,28 @@
 
 .link--orange-underline {
   color: inherit;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
   -webkit-text-decoration-color: #fe9013;
           text-decoration-color: #fe9013;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   cursor: pointer;
 }
 
 .slide-cards {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: white;
+  justify-content: center;
   padding-top: 140px;
   padding-bottom: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .slide-cards__bg-left-bottom {
   position: absolute;
-  left: 0;
   bottom: 0;
+  left: 0;
   width: 271px;
   height: 460px;
   background: no-repeat url(../../assets/images/palm_foto.png);
@@ -72,10 +72,10 @@
 
 .slide-cards__bg-right-top {
   position: absolute;
+  top: 0px;
+  right: 0px;
   width: 204px;
   height: 605px;
-  right: 0px;
-  top: 0px;
   background: no-repeat url(../../assets/images/flower_foto1.png);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -97,28 +97,28 @@
 .slide-cards__image {
   width: 609px;
   height: 403px;
-  background: url("../../assets/images/bamboo-cap.png");
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
+  background: url("../../assets/images/bamboo-cap.png");
 }
 
 .slide-cards__text-container {
-  flex: 1;
   box-sizing: border-box;
+  flex: 1;
   padding-left: 87px;
   color: #333b41;
 }
 .slide-cards__text-container p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
   margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
 }
 
 .slide-cards__title {
+  font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  font-size: 48px;
   line-height: 120%;
 }
 
@@ -130,29 +130,29 @@
 }
 
 .cards-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   width: 1322px;
   margin-top: 180px;
   margin-bottom: 80px;
+  display: flex;
+  flex-direction: row;
 }
 
 .cards-container {
-  position: relative;
   display: grid;
+  position: relative;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 20px 30px;
   overflow: hidden;
+  gap: 20px 30px;
 }
 
 .cards-btn {
   width: 62px;
   height: 62px;
-  border-radius: 50%;
   border: none;
+  border-radius: 50%;
   background-position: center;
   cursor: pointer;
 }
@@ -172,17 +172,16 @@
 }
 
 .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 366px;
-  height: 426px;
   box-sizing: border-box;
+  position: relative;
+  width: 366px;
   overflow: hidden;
   border: 1px solid #fa6f32;
   border-radius: 5px;
   text-decoration: none;
   transition: all 0.3s ease-in;
+  display: flex;
+  flex-direction: column;
 }
 .card:hover {
   background: rgba(0, 0, 0, 0.424);
@@ -192,7 +191,7 @@
   filter: brightness(0.7);
 }
 .card:hover .card-img {
-  transform: scale(1.1);
+  transform: scale(1.4);
 }
 .card:hover .card-text-box {
   transform: translateY(-350px);
@@ -206,13 +205,12 @@
 .card-img {
   width: 366px;
   height: 366px;
-  transition: all 0.3s ease-in;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: all 0.3s ease-in;
 }
 
 .img-wrapper--overflow {
-  overflow: hidden;
   width: 366px;
   height: 366px;
 }
@@ -224,27 +222,27 @@
 }
 
 .card-title {
-  font-weight: 500;
+  color: #000000;
   font-size: 16px;
+  font-weight: 500;
   line-height: 140%;
   text-transform: uppercase;
-  color: #000000;
 }
 
 .card-description {
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 120%;
   color: #000000;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 120%;
 }
 
 .card-food-img {
-  background-position: center;
   position: absolute;
   right: 8px;
   bottom: 16px;
   width: 48px;
   height: 38px;
+  background-position: center;
 }
 
 .card-food-img--banana {
@@ -256,67 +254,67 @@
 }
 
 .slide-friend {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #febdab 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%);
   opacity: 0.9;
+  display: flex;
+  flex-direction: column;
 }
 
 .slide-friend__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   box-sizing: border-box;
+  justify-content: center;
   margin-top: 69px;
   margin-bottom: 100px;
   padding: 41px 100px 59px 100px;
-  background: rgba(253, 253, 255, 0.52);
+  border-radius: 20px;
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
-  border-radius: 20px;
+  background: rgba(253, 253, 255, 0.52);
+  display: flex;
+  flex-direction: column;
 }
 .slide-friend__container .btn {
   margin-top: 60px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .slide-friend__title {
+  color: #fe9013;
   font-family: "Roboto";
+  font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  font-size: 48px;
   line-height: 120%;
   text-align: center;
-  color: #fe9013;
 }
 
 .slide-friend__subtitle {
   margin-top: 30px;
+  color: #333b41;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
   line-height: 29px;
-  color: #333b41;
 }
 
 .slide-friend__text--bold {
   margin-top: 40px;
+  color: #333b41;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 21px;
-  color: #333b41;
 }
 
 .slide-friend__text {
   margin-top: 10px;
+  color: #333b41;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 21px;
-  color: #333b41;
 }
 
 .slide-friend__h3 {
@@ -325,29 +323,29 @@
 }
 
 .how-container {
+  justify-content: center;
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 .how-container__card {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   width: 168px;
   height: 244px;
+  display: flex;
+  flex-direction: column;
 }
 
 .how-container__card-image-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 168px;
   height: 168px;
-  background: #ffffff;
   border: 1px solid #f9804b;
   border-radius: 5px;
+  background: #ffffff;
 }
 
 .how-container__card-text {
@@ -355,43 +353,43 @@
 }
 
 .how-container__arrow {
-  background: url("../../assets/icons/how-arrow.svg") no-repeat center;
   width: 130px;
   height: 160px;
+  background: url("../../assets/icons/how-arrow.svg") no-repeat center;
 }
 
 .how-container__arrow--small {
   display: none;
-  background: url("../../assets/icons/how-arrow-small.png") no-repeat center;
   width: 130px;
   height: 160px;
+  background: url("../../assets/icons/how-arrow-small.png") no-repeat center;
 }
 
 .how-container__card-image1 {
-  height: 108px;
   width: 108px;
+  height: 108px;
   background: url("../../assets/icons/how-hand-card.svg") no-repeat center;
 }
 
 .how-container__card-image2 {
-  height: 108px;
   width: 108px;
+  height: 108px;
   background: url("../../assets/icons/how-hand-payment.svg") no-repeat center;
 }
 
 .how-container__card-image3 {
-  height: 72px;
   width: 125px;
+  height: 72px;
   background: url("../../assets/icons/how-monkey.svg") no-repeat center;
 }
 
 .slide-testimonials {
   position: relative;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   padding-top: 140px;
   padding-bottom: 180px;
+  display: flex;
+  flex-direction: column;
 }
 .slide-testimonials h3 {
   margin-bottom: 47px;
@@ -405,59 +403,59 @@
 }
 
 .testimonials-cards-container {
-  display: flex;
-  flex-direction: row;
   width: 1162px;
-  padding-bottom: 21px;
   margin: 0 auto;
-  scrollbar-color: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  padding-bottom: 21px;
   transition: all 0.3s ease-in 0s;
+  scrollbar-color: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   scrollbar-width: thin;
   scrollbar-color: orange;
+  display: flex;
+  flex-direction: row;
 }
 .testimonials-cards-container .testimonials-card__wrapper + .testimonials-card__wrapper {
   margin-left: 30px;
 }
 .testimonials-cards-container:-webkit-scrollbar-thumb {
-  background-color: orange;
   border-radius: 5px;
+  background-color: orange;
 }
 .testimonials-cards-container::-webkit-scrollbar {
-  margin: 0 280px;
-  height: 8px;
   width: 599px;
-  background-color: #f5f7f6;
-  border-radius: 5px;
+  height: 8px;
+  margin: 0 280px;
   border: 1px solid #e0d8f0;
+  border-radius: 5px;
+  background-color: #f5f7f6;
 }
 .testimonials-cards-container::-webkit-scrollbar-track {
   background-color: transparent;
 }
 .testimonials-cards-container::-webkit-scrollbar-thumb {
   width: 116px;
-  background-color: orange;
   border-radius: 5px;
+  background-color: orange;
 }
 
 .testimonials-card__wrapper {
   box-sizing: border-box;
-  min-width: 268px;
   width: 268px;
+  min-width: 268px;
   height: 391px;
   overflow: hidden;
-  border-radius: 20px;
   border: 2px solid transparent;
+  border-radius: 20px;
   background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%) border-box;
+  cursor: pointer;
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-  cursor: pointer;
 }
 
 .testimonials-card__card {
   box-sizing: border-box;
-  padding: 15px 15px 19px 16px;
   width: 268px;
   height: 391px;
+  padding: 15px 15px 19px 16px;
   background: #f1f3f2;
 }
 
@@ -467,50 +465,50 @@
 }
 
 .testimonials-card__header-userpic {
-  height: 37px;
   width: 37px;
+  height: 37px;
   border-radius: 50%;
 }
 
 .testimonials-card__header-infoblock {
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
 }
 
 .testimonials-card__header-name {
   font-size: 16px;
   font-weight: 400;
-  line-height: 19px;
   letter-spacing: 0em;
+  line-height: 19px;
   text-align: left;
 }
 
 .testimonials-card__header-details {
+  color: #bdbdbd;
   font-size: 15px;
   font-weight: 300;
-  line-height: 18px;
   letter-spacing: 0em;
+  line-height: 18px;
   text-align: left;
-  color: #bdbdbd;
 }
 
 .testimonials-card__text {
-  height: 307px;
   box-sizing: border-box;
+  height: 307px;
   margin-top: 10px;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 120%;
   overflow: hidden;
   color: #767474;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
 }
 
 .testimonials-scroll {
-  margin: 21px auto 31px auto;
-  height: 8px;
   width: 599px;
+  height: 8px;
+  margin: 21px auto 31px auto;
   background: url("../../assets/elements/line_scrol.png") no-repeat center;
 }
 
@@ -524,44 +522,38 @@
 }
 
 .range-container {
+  box-sizing: border-box;
   display: flex;
+  width: 390px;
+  height: 8px;
   margin: 0 auto;
   border: 0.5px solid transparent;
+  border-radius: 5px;
   background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%) border-box;
   -webkit-mask-composite: xor;
-  width: 390px;
-  border-radius: 5px;
-  height: 8px;
-  box-sizing: border-box;
 }
 
 .range-slider {
-  margin: 0 auto;
-  -webkit-appearance: none !important;
+  box-sizing: border-box;
   width: 390px;
   height: 6px;
-  background: #eaf7fe;
-  /* border: 0.5px solid rgba(254, 189, 171, 0.7411764706); */
-  outline: none;
+  margin: 0 auto;
   border-radius: 5px;
-  box-sizing: border-box;
+  outline: none;
+  background: #eaf7fe;
+  -webkit-appearance: none !important;
 }
 
 .range-slider::-webkit-slider-thumb {
-  -webkit-appearance: none !important;
   width: 75px;
   height: 6px;
-  background: #fe9013;
   border-radius: 5px;
+  background: #fe9013;
   cursor: pointer;
+  -webkit-appearance: none !important;
 }
 
 /* small desktop */
-@media screen and (min-width: 1381px) {
-  .cards-container {
-    height: 880px;
-  }
-}
 @media screen and (min-width: 1381px) and (max-width: 1599px) {
   body {
     min-width: unset;
@@ -599,32 +591,29 @@
   .cards-wrapper .container {
     width: 943px !important;
   }
-  .cards-container {
-    height: 800px;
-  }
   .main-slide {
     height: 584px;
   }
   .main-slide .main-slide__ellips {
-    width: 367px;
-    height: 367px;
-    left: auto;
     top: 69px;
     right: 200px;
+    left: auto;
+    width: 367px;
+    height: 367px;
   }
   .main-slide .main-slide__text {
-    font-weight: 700;
-    font-size: 85px;
-    line-height: 75%;
-    left: auto;
     top: 126px;
     right: 60px;
+    left: auto;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 75%;
   }
   .main-slide .main-slide .btn {
-    left: auto;
     top: auto;
-    bottom: 40px;
     right: 170px;
+    bottom: 40px;
+    left: auto;
   }
   .slide-cards .cards-wrapper {
     position: relative;
@@ -650,7 +639,6 @@
   }
   .slide-cards .card {
     width: 295px;
-    height: 354px;
   }
   .slide-cards .card:hover .card-text-box {
     transform: translateY(-90px);
@@ -658,18 +646,18 @@
   .slide-cards .card-img,
 .slide-cards .img-wrapper--overflow {
     width: 100%;
+    height: 294px;
     -o-object-fit: cover;
        object-fit: cover;
-    height: 294px;
   }
   .slide-cards .cards-btn {
-    top: 50%;
-    position: absolute;
     z-index: 2;
+    position: absolute;
+    top: 50%;
   }
   .slide-cards .cards-btn--left {
-    transform: translate(-50%, -50%);
     left: 38%;
+    transform: translate(-50%, -50%);
   }
   .slide-cards .cards-btn--right {
     right: 38%;
@@ -690,8 +678,8 @@
     background-size: contain;
   }
   .slide-testimonials .testimonials-cards-container {
-    margin: 0 auto;
     width: 881px;
+    margin: 0 auto;
   }
   .slide-testimonials .testimonials-wrapper {
     width: 881px;
@@ -729,40 +717,40 @@
     background-position-y: -66px;
   }
   .main-slide .main-slide__ellips {
-    width: 237.6px;
-    height: 237.6px;
-    left: auto;
     top: 50px;
     right: 70px;
+    left: auto;
+    width: 237.6px;
+    height: 237.6px;
   }
   .main-slide .main-slide__text {
-    width: 255px;
-    height: auto;
-    font-weight: 700;
-    font-size: 54.2894px;
-    line-height: 75%;
-    left: auto;
     top: 88px;
     right: 34px;
+    left: auto;
+    width: 255px;
+    height: auto;
+    font-size: 54.2894px;
+    font-weight: 700;
+    line-height: 75%;
   }
   .main-slide .btn {
-    left: 20px;
     top: auto;
     bottom: 40px;
+    left: 20px;
   }
   .slide-cards {
     padding-top: 60px;
   }
   .slide-cards > .container {
-    margin-left: 0;
     width: 495px;
+    margin-left: 0;
   }
   .slide-cards .slide-cards__image {
     display: none;
   }
   .slide-cards .cards-wrapper {
-    width: 100%;
     position: relative;
+    width: 100%;
   }
   .slide-cards .slide-cards__text-container {
     padding-left: 31px;
@@ -773,19 +761,19 @@
     background-position: center;
   }
   .slide-cards .slide-cards__bg-right-top {
-    background-size: contain;
     display: block;
     width: 158px;
     height: 476px;
+    background-size: contain;
   }
   .slide-cards .cards-container {
-    margin: 0 auto;
-    width: 600px;
     position: relative;
     grid-template-columns: 1fr 1fr;
-    gap: 92px 29px;
+    width: 600px;
     height: 800px;
+    margin: 0 auto;
     overflow: hidden;
+    gap: 92px 29px;
   }
   .slide-cards .card {
     width: 285px;
@@ -804,29 +792,29 @@
     font-size: 11.7px;
   }
   .slide-cards .card .card-food-img {
-    background-size: contain;
     width: 24px;
     height: 27px;
+    background-size: contain;
   }
   .slide-cards .card-img,
 .slide-cards .img-wrapper--overflow {
     width: 100%;
+    height: 285px;
     -o-object-fit: cover;
        object-fit: cover;
-    height: 294px;
   }
   .slide-cards .cards-btn {
-    top: 47%;
-    position: absolute;
     z-index: 1;
+    position: absolute;
+    top: 47%;
   }
   .slide-cards .cards-btn--left {
-    transform: translate(0, -50%);
     left: 37%;
+    transform: translate(0, -50%);
   }
   .slide-cards .cards-btn--right {
-    transform: translate(0%, -50%);
     right: 37%;
+    transform: translate(0%, -50%);
   }
   .slide-cards .slide-cards .card-img,
 .slide-cards .slide-cards .img-wrapper--overflow {
@@ -852,10 +840,10 @@
     font-size: 42px;
   }
   .slide-friend .slide-friend__container {
-    padding: 10px 20px 60px 20px;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 10px 20px 60px 20px;
   }
   .slide-friend .how-container__arrow {
     display: none;
@@ -864,11 +852,11 @@
     position: relative;
   }
   .slide-friend .how-container__arrow--small {
+    display: block;
+    z-index: 2;
     position: absolute;
     top: -81px;
     left: 115px;
-    display: block;
-    z-index: 2;
   }
   .slide-testimonials {
     padding: 60px 20px 80px 20px;
@@ -887,10 +875,10 @@
     display: none;
   }
   .slide-testimonials .testimonials-cards-container {
-    width: 100%;
-    margin: 0 auto;
-    height: 357px;
     flex-direction: column;
+    width: 100%;
+    height: 357px;
+    margin: 0 auto;
   }
   .slide-testimonials .testimonials-cards-container .testimonials-card__wrapper {
     display: none;
@@ -900,8 +888,8 @@
     display: block;
   }
   .slide-testimonials .testimonials-cards-container .testimonials-card__wrapper + .testimonials-card__wrapper {
-    margin-left: 0px;
     margin-top: 15px;
+    margin-left: 0px;
   }
   .slide-testimonials .testimonials-card__wrapper,
 .slide-testimonials .testimonials-card__card {
@@ -909,14 +897,14 @@
     height: 109px;
   }
   .slide-testimonials .testimonials-card__text {
-    padding-bottom: 10px;
     height: 37px;
+    padding-bottom: 10px;
     overflow: hidden;
   }
   .slide-testimonials .slide-testimonials__bg-right-bottom {
+    bottom: -28px;
     width: 94px;
     height: 153px;
-    bottom: -28px;
     background-position: right;
     background-size: contain;
   }
@@ -960,20 +948,20 @@
     padding-top: 34px;
   }
   .main-slide .main-slide__ellips {
-    width: 119.09px;
-    height: 119.09px;
     top: 55px;
     left: calc(50% - 59.545px + 63.45px);
+    width: 119.09px;
+    height: 119.09px;
   }
   .main-slide .main-slide__text {
     position: absolute;
+    top: 74px;
+    left: calc(50% - 59.545px + 66.45px);
     width: 157px;
     height: auto;
-    font-weight: 700;
     font-size: 28px;
+    font-weight: 700;
     line-height: 75%;
-    left: calc(50% - 59.545px + 66.45px);
-    top: 74px;
   }
   .main-slide .btn {
     z-index: 1;
@@ -987,9 +975,9 @@
   }
   .slide-cards > .container {
     box-sizing: border-box;
-    padding: 0 10px;
-    margin-left: 0;
     width: 100%;
+    margin-left: 0;
+    padding: 0 10px;
   }
   .slide-cards .slide-cards__title {
     font-size: 24px;
@@ -1014,21 +1002,20 @@
   }
   .slide-cards .slide-cards__bg-right-top {
     display: block;
-    background-size: cover;
+    top: 50px;
     width: 30px;
     height: 217px;
-    top: 50px;
+    background-size: cover;
   }
   .slide-cards .cards-container {
     position: relative;
     grid-template-columns: 1fr;
-    gap: 20px;
     height: 1490px;
     overflow: hidden;
+    gap: 20px;
   }
   .slide-cards .card {
     width: 277px;
-    height: 354px;
     margin: 0 auto;
   }
   .slide-cards .card:hover .card-text-box {
@@ -1037,9 +1024,9 @@
   .slide-cards .card-img,
 .slide-cards .img-wrapper--overflow {
     width: 100%;
+    height: 294px;
     -o-object-fit: cover;
        object-fit: cover;
-    height: 294px;
   }
   .slide-cards .cards-btn {
     display: none;
@@ -1069,21 +1056,22 @@
     font-size: 24px;
   }
   .slide-friend .slide-friend__subtitle {
-    font-size: 18px;
     margin-top: 10px;
+    font-size: 18px;
   }
-  .slide-friend .slide-friend__text--bold, .slide-friend .slide-friend__text {
+  .slide-friend .slide-friend__text--bold,
+.slide-friend .slide-friend__text {
     display: none;
   }
   .slide-friend .slide-friend__h3 {
-    font-size: 24px;
     margin: 20px 0;
+    font-size: 24px;
   }
   .slide-friend .slide-friend__container {
-    padding: 10px 20px 60px 20px;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 10px 20px 60px 20px;
   }
   .slide-friend .how-container__arrow {
     display: none;
@@ -1092,14 +1080,14 @@
     position: relative;
   }
   .slide-friend .how-container__arrow--small {
+    display: block;
+    z-index: 2;
     position: absolute;
     top: 173px;
     left: 139px;
-    display: block;
-    z-index: 2;
-    transform: rotate(82deg);
     width: 87px;
     height: 71px;
+    transform: rotate(82deg);
   }
   .slide-testimonials {
     padding: 30px 10px 90px 10px;
@@ -1114,10 +1102,10 @@
     width: calc(100% - 20px);
   }
   .slide-testimonials .testimonials-cards-container {
-    width: 100%;
-    margin: 0 auto;
-    height: 357px;
     flex-direction: column;
+    width: 100%;
+    height: 357px;
+    margin: 0 auto;
     padding-bottom: 0;
   }
   .slide-testimonials .testimonials-cards-container ~ .range-container {
@@ -1131,8 +1119,8 @@
     display: block;
   }
   .slide-testimonials .testimonials-cards-container .testimonials-card__wrapper + .testimonials-card__wrapper {
-    margin-left: 0px;
     margin-top: 15px;
+    margin-left: 0px;
   }
   .slide-testimonials .testimonials-card__wrapper,
 .slide-testimonials .testimonials-card__card {
@@ -1140,14 +1128,14 @@
     height: 109px;
   }
   .slide-testimonials .testimonials-card__text {
-    padding-bottom: 10px;
     height: 37px;
+    padding-bottom: 10px;
     overflow: hidden;
   }
   .slide-testimonials .slide-testimonials__bg-right-bottom {
+    bottom: -28px;
     width: 73px;
     height: 113px;
-    bottom: -28px;
     background-position: right;
     background-size: contain;
   }

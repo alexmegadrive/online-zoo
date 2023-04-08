@@ -446,6 +446,9 @@ a .footer-links-section__line:visited {
   }
 }
 
+.hidden {
+  display: none;
+}
 /* mobile and tablet header */
 @media screen and (min-width: 0px) and (max-width: 999px) {
   .header {
